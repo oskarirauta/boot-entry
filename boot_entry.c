@@ -156,6 +156,6 @@ static void __exit boot_entry_proc_exit(void) {
   remove_proc_entry("boot_entry", NULL);
 }
 
-MODULE_LICENSE("MIT");
+MODULE_LICENSE("GPL");
 module_init(boot_entry_proc_init);
 module_exit(boot_entry_proc_exit);
