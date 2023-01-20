@@ -20,7 +20,7 @@ MODULE_VERSION("0.99");
 
 static char *name = "unknown";
 
-module_param(name, charp, S_IRUGO);
+module_param(name, charp, 0644);
 MODULE_PARM_DESC(name, "boot variant name");
 
 static int boot_variant_proc_show(struct seq_file *m, void *v) {
