@@ -1,2 +1,2 @@
-# boot-entry
-boot_entry linux kernel module
+# boot-variant
+boot_variant linux kernel module
